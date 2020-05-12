@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 h1 {
-color: white;
+font-family: 'Source Sans Pro', sans-serif; ;
+color:#4169E1 ;
 font-size: 3em;
 text-decoration: ;
-background-color: #3399ff;
+background-color: white;
 }
 #caixa{
   display: inline-block;
-	background-color: #3399ff;
+	background-color: white;
 	height:160px;
 	width: 160px;
 	padding: 5px;
@@ -18,24 +20,30 @@ font-size: 2em;
 text-decoration: ;
 background-color: #66ccff;
 }*/
-h2{color :  #3399ff}
-ol{color:#0066ff}
+h2{	
+	color :  white;
+	font-family: 'Source Sans Pro', sans-serif;}
+ol{
+	color:white;
+	font-family: 'Source Sans Pro', sans-serif;}
 h3 {
-color: white;
+font-family: 'Source Sans Pro', sans-serif;
+color: #1E90FF;
 font-size: 1.25em;
-background-color: #3399ff;
+background-color:white ;
 }
-p{color:#0066ff}
+p{color:white;
+	font-family: 'Source Sans Pro', sans-serif;}
 #naruto{
-  display: inline-block;
+    display: inline-block;
 	background-color: orange;
 	height:90px;
 	width: 90px;
 	padding: 5px;
 	box-sizing: border-box;
 }
-/*deixei comentado abaixo pq fica meio esquisito, mas eu achei legal*/
 
-#tudo{
-  background-image: linear-gradient(black, white,black);
+body{
+  background-color: #4169E1	;
+  margin:2px ;
 }
